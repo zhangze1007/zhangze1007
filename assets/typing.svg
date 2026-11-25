@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 680 40" width="680" height="40" role="img" aria-label="Hi, I'm Zhang Ze — AI4S &amp; AI Frontier Research">
+  <defs>
+    <!-- Line 1 (0s - 4s), with static fallback d so non-animated viewers still show the greeting -->
+    <path id="line0" d="m115,26 h490">
+      <animate attributeName="d" dur="16s" repeatCount="indefinite"
+        keyTimes="0;0.085;0.195;0.235;0.25;1"
+        values="m115,26 h0 ; m115,26 h490 ; m115,26 h490 ; m115,26 h0 ; m115,26 h0 ; m115,26 h0" />
+    </path>
+    <!-- Line 2 (4s - 8s) -->
+    <path id="line1" d="m120,26 h0">
+      <animate attributeName="d" dur="16s" repeatCount="indefinite"
+        keyTimes="0;0.25;0.335;0.445;0.485;0.5;1"
+        values="m120,26 h0 ; m120,26 h0 ; m120,26 h480 ; m120,26 h480 ; m120,26 h0 ; m120,26 h0 ; m120,26 h0" />
+    </path>
+    <!-- Line 3 (8s - 12s) -->
+    <path id="line2" d="m95,26 h0">
+      <animate attributeName="d" dur="16s" repeatCount="indefinite"
+        keyTimes="0;0.5;0.585;0.695;0.735;0.75;1"
+        values="m95,26 h0 ; m95,26 h0 ; m95,26 h530 ; m95,26 h530 ; m95,26 h0 ; m95,26 h0 ; m95,26 h0" />
+    </path>
+    <!-- Line 4 (12s - 16s) -->
+    <path id="line3" d="m90,26 h0">
+      <animate attributeName="d" dur="16s" repeatCount="indefinite"
+        keyTimes="0;0.75;0.835;0.945;0.985;1"
+        values="m90,26 h0 ; m90,26 h0 ; m90,26 h540 ; m90,26 h540 ; m90,26 h0 ; m90,26 h0" />
+    </path>
+  </defs>
+
+  <style>
+    .t {
+      font-family: ui-monospace, 'Fira Code', 'SFMono-Regular', Menlo, Consolas, monospace;
+      font-size: 17px;
+      font-weight: 600;
+      fill: #6BA4D9;
+      letter-spacing: 0.25px;
+    }
+  </style>
+
+  <text class="t"><textPath href="#line0" xlink:href="#line0">Hi 👋 I'm Zhang Ze — welcome to my GitHub!</textPath></text>
+  <text class="t"><textPath href="#line1" xlink:href="#line1">Focusing on AI4S &amp; AI Frontier Research 🧬</textPath></text>
+  <text class="t"><textPath href="#line2" xlink:href="#line2">Mapping LLM failure geometry &amp; safe runtimes 📐</textPath></text>
+  <text class="t"><textPath href="#line3" xlink:href="#line3">Building proactive, defensive agentic systems ⚡</textPath></text>
+</svg>
